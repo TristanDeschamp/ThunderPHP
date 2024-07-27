@@ -14,10 +14,10 @@ if ((empty($_SERVER['SERVER_NAME']) && strpos(PHP_SAPI, 'cgi') !== 0) || (!empty
 	define( 'DB_NAME', 'pluginphp_db' );
 	
 	/* Database username */
-	define( 'DB_USER', 'Tristan' );
+	define( 'DB_USER', 'root' );
 	
 	/* Database password */
-	define( 'DB_PASSWORD', 'Tritrikitroll' );
+	define( 'DB_PASSWORD', '' );
 	
 	/* Database hostname */
 	define( 'DB_HOST', 'localhost' );
