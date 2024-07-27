@@ -1,0 +1,9 @@
+# Deny access to all files in this directory
+<Files ~ "^.*">
+  Deny from all
+</Files>
+
+# Allow access to specific file types in this directory
+<Files ~ "^index\.php|css|js|.*\.png|.*\.jpg|.*\.jpeg|.*\.woff|.*\.woff2|.*\.ttf|.*\.svg|.*\.gif|.*\.webp">
+  Allow from all
+</Files>

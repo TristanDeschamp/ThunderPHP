@@ -1,0 +1,16 @@
+# Disable directory listing
+Options -Indexes
+
+# Enable URL rewriting
+RewriteEngine On
+
+# Deny direct access to the thunder CLI file and route it to index.php
+RewriteRule ^(thunder)$ index.php?url=$1 [L,QSA]
+RewriteRule ^(thunder/) index.php?url=$1 [L,QSA]
+
+# Accept loading of existing files and directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Route all other requests to index.php
+RewriteRule ^(.*)$ index.php?url=$1 [L,QSA]

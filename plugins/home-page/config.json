@@ -1,0 +1,17 @@
+{
+	"name":"Home Page",
+	"id":"home-page",
+	"author":"Tristan Deschamp",
+	"author website":"",
+	"thumbnail":"thumbnail.jpg",
+	"active":true,
+	"index":1,
+	"routes": {
+		"on":["home"],
+		"off":[]
+	},
+	"dependencies": {
+
+	}
+
+}

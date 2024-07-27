@@ -1,0 +1,17 @@
+{
+	"name":"Header Footer",
+	"id":"header-footer",
+	"author":"Tristan Deschamp",
+	"author website":"",
+	"thumbnail":"thumbnail.jpg",
+	"active":true,
+	"index":1,
+	"routes": {
+		"on":["all"],
+		"off":[]
+	},
+	"dependencies": {
+
+	}
+
+}

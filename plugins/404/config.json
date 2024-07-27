@@ -1,0 +1,17 @@
+{
+	"name":"Page Not Found",
+	"id":"404",
+	"author":"Tristan Deschamp",
+	"author website":"",
+	"thumbnail":"thumbnail.jpg",
+	"active":true,
+	"index":1,
+	"routes": {
+		"on":["404"],
+		"off":[]
+	},
+	"dependencies": {
+
+	}
+
+}
